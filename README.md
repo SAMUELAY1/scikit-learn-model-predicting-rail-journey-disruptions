@@ -12,10 +12,10 @@ only information known at the time of booking.
 - [x] Fixed a data quality issue: blank `Railcard` values were being
       wrongly dropped as missing data, when they actually mean "no
       railcard used" — fixed by filling with an explicit label
-- [ ] Train/test split
-- [ ] Baseline model (Logistic Regression)
-- [ ] Random Forest model + evaluation
-- [ ] Feature importance analysis
+- [x] Train/test split
+- [x] Baseline model (Logistic Regression)
+- [x] Random Forest model + evaluation
+- [x] Feature importance analysis
 - [ ] Final write-up with results
 
 ## Dataset
